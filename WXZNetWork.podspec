@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WXZNetWork"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "关于AFNetworking的封装"
 
   # This description is used to generate tags and improve search results.
