@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCAB68EA2FF51527877A9004 /* Pods_CommonPods_WXZHttpClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6070FE36BEF4DA2A8F5E54B /* Pods_CommonPods_WXZHttpClient.framework */; };
+		F184BCDF258B486700BA65CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BCDE258B486700BA65CC /* AppDelegate.m */; };
+		F184BCE2258B486700BA65CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BCE1258B486700BA65CC /* SceneDelegate.m */; };
+		F184BCE5258B486700BA65CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BCE4258B486700BA65CC /* ViewController.m */; };
+		F184BCE8258B486700BA65CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F184BCE6258B486700BA65CC /* Main.storyboard */; };
+		F184BCEA258B486900BA65CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F184BCE9258B486900BA65CC /* Assets.xcassets */; };
+		F184BCED258B486900BA65CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F184BCEB258B486900BA65CC /* LaunchScreen.storyboard */; };
+		F184BCF0258B486900BA65CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BCEF258B486900BA65CC /* main.m */; };
+		F184BCFA258B486900BA65CC /* WXZHttpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BCF9258B486900BA65CC /* WXZHttpClientTests.m */; };
+		F184BD05258B486900BA65CC /* WXZHttpClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD04258B486900BA65CC /* WXZHttpClientUITests.m */; };
+		F184BD1D258B48EC00BA65CC /* WXZNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD1C258B48EC00BA65CC /* WXZNetWorkConfig.m */; };
+		F184BD26258B490300BA65CC /* WXZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD25258B490300BA65CC /* WXZRequest.m */; };
+		F184BD2C258B491A00BA65CC /* WXZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD2B258B491A00BA65CC /* WXZRequestManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F184BCF6258B486900BA65CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F184BCD2258B486700BA65CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F184BCD9258B486700BA65CC;
+			remoteInfo = WXZHttpClient;
+		};
+		F184BD01258B486900BA65CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F184BCD2258B486700BA65CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F184BCD9258B486700BA65CC;
+			remoteInfo = WXZHttpClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0157ACF942217DB605F24B92 /* Pods-CommonPods-WXZHttpClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-WXZHttpClient.release.xcconfig"; path = "Target Support Files/Pods-CommonPods-WXZHttpClient/Pods-CommonPods-WXZHttpClient.release.xcconfig"; sourceTree = "<group>"; };
+		C6070FE36BEF4DA2A8F5E54B /* Pods_CommonPods_WXZHttpClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_WXZHttpClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6579E63ABA8C99605C7568D /* Pods-CommonPods-WXZHttpClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods-WXZHttpClient.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods-WXZHttpClient/Pods-CommonPods-WXZHttpClient.debug.xcconfig"; sourceTree = "<group>"; };
+		F184BCDA258B486700BA65CC /* WXZHttpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WXZHttpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F184BCDD258B486700BA65CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F184BCDE258B486700BA65CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F184BCE0258B486700BA65CC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F184BCE1258B486700BA65CC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F184BCE3258B486700BA65CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F184BCE4258B486700BA65CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F184BCE7258B486700BA65CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F184BCE9258B486900BA65CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F184BCEC258B486900BA65CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F184BCEE258B486900BA65CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F184BCEF258B486900BA65CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F184BCF5258B486900BA65CC /* WXZHttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXZHttpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F184BCF9258B486900BA65CC /* WXZHttpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZHttpClientTests.m; sourceTree = "<group>"; };
+		F184BCFB258B486900BA65CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F184BD00258B486900BA65CC /* WXZHttpClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXZHttpClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F184BD04258B486900BA65CC /* WXZHttpClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZHttpClientUITests.m; sourceTree = "<group>"; };
+		F184BD06258B486900BA65CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F184BD1B258B48EC00BA65CC /* WXZNetWorkConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZNetWorkConfig.h; sourceTree = "<group>"; };
+		F184BD1C258B48EC00BA65CC /* WXZNetWorkConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZNetWorkConfig.m; sourceTree = "<group>"; };
+		F184BD24258B490300BA65CC /* WXZRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZRequest.h; sourceTree = "<group>"; };
+		F184BD25258B490300BA65CC /* WXZRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZRequest.m; sourceTree = "<group>"; };
+		F184BD2A258B491900BA65CC /* WXZRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZRequestManager.h; sourceTree = "<group>"; };
+		F184BD2B258B491A00BA65CC /* WXZRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZRequestManager.m; sourceTree = "<group>"; };
+		F184BD30258B61DE00BA65CC /* WXZNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZNetWork.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F184BCD7258B486700BA65CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAB68EA2FF51527877A9004 /* Pods_CommonPods_WXZHttpClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F184BCF2258B486900BA65CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F184BCFD258B486900BA65CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		589F55A455C2A7D88F6153E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6579E63ABA8C99605C7568D /* Pods-CommonPods-WXZHttpClient.debug.xcconfig */,
+				0157ACF942217DB605F24B92 /* Pods-CommonPods-WXZHttpClient.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F184BCD1258B486700BA65CC = {
+			isa = PBXGroup;
+			children = (
+				F184BCDC258B486700BA65CC /* WXZHttpClient */,
+				F184BCF8258B486900BA65CC /* WXZHttpClientTests */,
+				F184BD03258B486900BA65CC /* WXZHttpClientUITests */,
+				F184BCDB258B486700BA65CC /* Products */,
+				589F55A455C2A7D88F6153E0 /* Pods */,
+				FB2588F32AB2E6A3E506F2E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F184BCDB258B486700BA65CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F184BCDA258B486700BA65CC /* WXZHttpClient.app */,
+				F184BCF5258B486900BA65CC /* WXZHttpClientTests.xctest */,
+				F184BD00258B486900BA65CC /* WXZHttpClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F184BCDC258B486700BA65CC /* WXZHttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				F184BD1A258B489D00BA65CC /* HttpClient */,
+				F184BCDD258B486700BA65CC /* AppDelegate.h */,
+				F184BCDE258B486700BA65CC /* AppDelegate.m */,
+				F184BCE0258B486700BA65CC /* SceneDelegate.h */,
+				F184BCE1258B486700BA65CC /* SceneDelegate.m */,
+				F184BCE3258B486700BA65CC /* ViewController.h */,
+				F184BCE4258B486700BA65CC /* ViewController.m */,
+				F184BCE6258B486700BA65CC /* Main.storyboard */,
+				F184BCE9258B486900BA65CC /* Assets.xcassets */,
+				F184BCEB258B486900BA65CC /* LaunchScreen.storyboard */,
+				F184BCEE258B486900BA65CC /* Info.plist */,
+				F184BCEF258B486900BA65CC /* main.m */,
+			);
+			path = WXZHttpClient;
+			sourceTree = "<group>";
+		};
+		F184BCF8258B486900BA65CC /* WXZHttpClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				F184BCF9258B486900BA65CC /* WXZHttpClientTests.m */,
+				F184BCFB258B486900BA65CC /* Info.plist */,
+			);
+			path = WXZHttpClientTests;
+			sourceTree = "<group>";
+		};
+		F184BD03258B486900BA65CC /* WXZHttpClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F184BD04258B486900BA65CC /* WXZHttpClientUITests.m */,
+				F184BD06258B486900BA65CC /* Info.plist */,
+			);
+			path = WXZHttpClientUITests;
+			sourceTree = "<group>";
+		};
+		F184BD1A258B489D00BA65CC /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				F184BD1B258B48EC00BA65CC /* WXZNetWorkConfig.h */,
+				F184BD1C258B48EC00BA65CC /* WXZNetWorkConfig.m */,
+				F184BD24258B490300BA65CC /* WXZRequest.h */,
+				F184BD25258B490300BA65CC /* WXZRequest.m */,
+				F184BD2A258B491900BA65CC /* WXZRequestManager.h */,
+				F184BD2B258B491A00BA65CC /* WXZRequestManager.m */,
+				F184BD30258B61DE00BA65CC /* WXZNetWork.h */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		FB2588F32AB2E6A3E506F2E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6070FE36BEF4DA2A8F5E54B /* Pods_CommonPods_WXZHttpClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F184BCD9258B486700BA65CC /* WXZHttpClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F184BD09258B486900BA65CC /* Build configuration list for PBXNativeTarget "WXZHttpClient" */;
+			buildPhases = (
+				3C9C7282BE1000E43F0197C8 /* [CP] Check Pods Manifest.lock */,
+				F184BCD6258B486700BA65CC /* Sources */,
+				F184BCD7258B486700BA65CC /* Frameworks */,
+				F184BCD8258B486700BA65CC /* Resources */,
+				AA3ED084A5BDCC3B9553835E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXZHttpClient;
+			productName = WXZHttpClient;
+			productReference = F184BCDA258B486700BA65CC /* WXZHttpClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F184BCF4258B486900BA65CC /* WXZHttpClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F184BD0C258B486900BA65CC /* Build configuration list for PBXNativeTarget "WXZHttpClientTests" */;
+			buildPhases = (
+				F184BCF1258B486900BA65CC /* Sources */,
+				F184BCF2258B486900BA65CC /* Frameworks */,
+				F184BCF3258B486900BA65CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F184BCF7258B486900BA65CC /* PBXTargetDependency */,
+			);
+			name = WXZHttpClientTests;
+			productName = WXZHttpClientTests;
+			productReference = F184BCF5258B486900BA65CC /* WXZHttpClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F184BCFF258B486900BA65CC /* WXZHttpClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F184BD0F258B486900BA65CC /* Build configuration list for PBXNativeTarget "WXZHttpClientUITests" */;
+			buildPhases = (
+				F184BCFC258B486900BA65CC /* Sources */,
+				F184BCFD258B486900BA65CC /* Frameworks */,
+				F184BCFE258B486900BA65CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F184BD02258B486900BA65CC /* PBXTargetDependency */,
+			);
+			name = WXZHttpClientUITests;
+			productName = WXZHttpClientUITests;
+			productReference = F184BD00258B486900BA65CC /* WXZHttpClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F184BCD2258B486700BA65CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					F184BCD9258B486700BA65CC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					F184BCF4258B486900BA65CC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F184BCD9258B486700BA65CC;
+					};
+					F184BCFF258B486900BA65CC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = F184BCD9258B486700BA65CC;
+					};
+				};
+			};
+			buildConfigurationList = F184BCD5258B486700BA65CC /* Build configuration list for PBXProject "WXZHttpClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F184BCD1258B486700BA65CC;
+			productRefGroup = F184BCDB258B486700BA65CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F184BCD9258B486700BA65CC /* WXZHttpClient */,
+				F184BCF4258B486900BA65CC /* WXZHttpClientTests */,
+				F184BCFF258B486900BA65CC /* WXZHttpClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F184BCD8258B486700BA65CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F184BCED258B486900BA65CC /* LaunchScreen.storyboard in Resources */,
+				F184BCEA258B486900BA65CC /* Assets.xcassets in Resources */,
+				F184BCE8258B486700BA65CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F184BCF3258B486900BA65CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F184BCFE258B486900BA65CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C9C7282BE1000E43F0197C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPods-WXZHttpClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA3ED084A5BDCC3B9553835E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-WXZHttpClient/Pods-CommonPods-WXZHttpClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommonPods-WXZHttpClient/Pods-CommonPods-WXZHttpClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPods-WXZHttpClient/Pods-CommonPods-WXZHttpClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F184BCD6258B486700BA65CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F184BCE5258B486700BA65CC /* ViewController.m in Sources */,
+				F184BCDF258B486700BA65CC /* AppDelegate.m in Sources */,
+				F184BD2C258B491A00BA65CC /* WXZRequestManager.m in Sources */,
+				F184BCF0258B486900BA65CC /* main.m in Sources */,
+				F184BD26258B490300BA65CC /* WXZRequest.m in Sources */,
+				F184BCE2258B486700BA65CC /* SceneDelegate.m in Sources */,
+				F184BD1D258B48EC00BA65CC /* WXZNetWorkConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F184BCF1258B486900BA65CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F184BCFA258B486900BA65CC /* WXZHttpClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F184BCFC258B486900BA65CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F184BD05258B486900BA65CC /* WXZHttpClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F184BCF7258B486900BA65CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F184BCD9258B486700BA65CC /* WXZHttpClient */;
+			targetProxy = F184BCF6258B486900BA65CC /* PBXContainerItemProxy */;
+		};
+		F184BD02258B486900BA65CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F184BCD9258B486700BA65CC /* WXZHttpClient */;
+			targetProxy = F184BD01258B486900BA65CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F184BCE6258B486700BA65CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F184BCE7258B486700BA65CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F184BCEB258B486900BA65CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F184BCEC258B486900BA65CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F184BD07258B486900BA65CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F184BD08258B486900BA65CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F184BD0A258B486900BA65CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6579E63ABA8C99605C7568D /* Pods-CommonPods-WXZHttpClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GP2K6YS3;
+				INFOPLIST_FILE = WXZHttpClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENLE.WXZHttpClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F184BD0B258B486900BA65CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0157ACF942217DB605F24B92 /* Pods-CommonPods-WXZHttpClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GP2K6YS3;
+				INFOPLIST_FILE = WXZHttpClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENLE.WXZHttpClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F184BD0D258B486900BA65CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GP2K6YS3;
+				INFOPLIST_FILE = WXZHttpClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENLE.WXZHttpClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXZHttpClient.app/WXZHttpClient";
+			};
+			name = Debug;
+		};
+		F184BD0E258B486900BA65CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GP2K6YS3;
+				INFOPLIST_FILE = WXZHttpClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENLE.WXZHttpClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WXZHttpClient.app/WXZHttpClient";
+			};
+			name = Release;
+		};
+		F184BD10258B486900BA65CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GP2K6YS3;
+				INFOPLIST_FILE = WXZHttpClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENLE.WXZHttpClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXZHttpClient;
+			};
+			name = Debug;
+		};
+		F184BD11258B486900BA65CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32GP2K6YS3;
+				INFOPLIST_FILE = WXZHttpClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ENLE.WXZHttpClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WXZHttpClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F184BCD5258B486700BA65CC /* Build configuration list for PBXProject "WXZHttpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F184BD07258B486900BA65CC /* Debug */,
+				F184BD08258B486900BA65CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F184BD09258B486900BA65CC /* Build configuration list for PBXNativeTarget "WXZHttpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F184BD0A258B486900BA65CC /* Debug */,
+				F184BD0B258B486900BA65CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F184BD0C258B486900BA65CC /* Build configuration list for PBXNativeTarget "WXZHttpClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F184BD0D258B486900BA65CC /* Debug */,
+				F184BD0E258B486900BA65CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F184BD0F258B486900BA65CC /* Build configuration list for PBXNativeTarget "WXZHttpClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F184BD10258B486900BA65CC /* Debug */,
+				F184BD11258B486900BA65CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F184BCD2258B486700BA65CC /* Project object */;
+}
