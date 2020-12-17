@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "WXZNetWork"
   spec.version      = "1.0.0"
-  spec.summary      = "关于AFNetworking的封装"
+  spec.summary      = "AFNetworking的封装"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "9.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "WXZHttpClient", "WXZHttpClient/HttpClient/*.{h,m}"
-  spec.exclude_files = "WXZHttpClient/HttpClient"
+  spec.exclude_files = "WXZHttpClient/HttpClient/"
 
   # spec.public_header_files = "Classes/**/*.h"
 
