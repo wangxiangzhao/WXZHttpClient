@@ -6,7 +6,10 @@
 //
 
 #import "ViewController.h"
-//#import "WXZNetWork.h"
+//#import "WXZRequestManager.h"
+//#import "WXZNetWorkConfig.h"
+//#import "AFNetworking.h"
+//#import "WXZRequest.h"
 
 @interface ViewController ()
 
@@ -28,8 +31,8 @@
 //    [request start];
 }
 
-//#pragma mark - WXZResponseDelegate
-//
+#pragma mark - WXZResponseDelegate
+
 ////请求成功
 //- (void)request:(WXZRequest *)request successWithResponse:(id)response {
 //
