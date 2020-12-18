@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "WXZNetWork"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "AFNetworking的封装"
 
   # This description is used to generate tags and improve search results.
@@ -125,10 +125,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "WXZHttpClient", "WXZHttpClient/WXZHttpClient/HttpClient/*.{h,m}"
-  spec.exclude_files = "WXZHttpClient/WXZHttpClient/HttpClient/"
+  spec.source_files  = "WXZHttpClient", "WXZHttpClient/HttpClient/*.{h,m}"
+  spec.exclude_files = "WXZHttpClient/HttpClient/"
 
-  spec.public_header_files = "WXZHttpClient/WXZHttpClient/HttpClient/WXZNetWork.h"
+  spec.public_header_files = "HttpClient/WXZNetWork.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
