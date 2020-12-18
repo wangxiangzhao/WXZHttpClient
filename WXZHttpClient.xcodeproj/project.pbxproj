@@ -20,6 +20,9 @@
 		F184BD1D258B48EC00BA65CC /* WXZNetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD1C258B48EC00BA65CC /* WXZNetWorkConfig.m */; };
 		F184BD26258B490300BA65CC /* WXZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD25258B490300BA65CC /* WXZRequest.m */; };
 		F184BD2C258B491A00BA65CC /* WXZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD2B258B491A00BA65CC /* WXZRequestManager.m */; };
+		F184BD4A258C97DC00BA65CC /* WXZBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD49258C97DC00BA65CC /* WXZBatchRequest.m */; };
+		F184BD50258CA4A900BA65CC /* WXZSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD4F258CA4A900BA65CC /* WXZSerialRequest.m */; };
+		F184BD56258CA7C000BA65CC /* WXZResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F184BD55258CA7C000BA65CC /* WXZResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,12 @@
 		F184BD2A258B491900BA65CC /* WXZRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZRequestManager.h; sourceTree = "<group>"; };
 		F184BD2B258B491A00BA65CC /* WXZRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZRequestManager.m; sourceTree = "<group>"; };
 		F184BD30258B61DE00BA65CC /* WXZNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZNetWork.h; sourceTree = "<group>"; };
+		F184BD48258C97DC00BA65CC /* WXZBatchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZBatchRequest.h; sourceTree = "<group>"; };
+		F184BD49258C97DC00BA65CC /* WXZBatchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZBatchRequest.m; sourceTree = "<group>"; };
+		F184BD4E258CA4A900BA65CC /* WXZSerialRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZSerialRequest.h; sourceTree = "<group>"; };
+		F184BD4F258CA4A900BA65CC /* WXZSerialRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZSerialRequest.m; sourceTree = "<group>"; };
+		F184BD54258CA7C000BA65CC /* WXZResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXZResponse.h; sourceTree = "<group>"; };
+		F184BD55258CA7C000BA65CC /* WXZResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXZResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +183,12 @@
 				F184BD2A258B491900BA65CC /* WXZRequestManager.h */,
 				F184BD2B258B491A00BA65CC /* WXZRequestManager.m */,
 				F184BD30258B61DE00BA65CC /* WXZNetWork.h */,
+				F184BD48258C97DC00BA65CC /* WXZBatchRequest.h */,
+				F184BD49258C97DC00BA65CC /* WXZBatchRequest.m */,
+				F184BD4E258CA4A900BA65CC /* WXZSerialRequest.h */,
+				F184BD4F258CA4A900BA65CC /* WXZSerialRequest.m */,
+				F184BD54258CA7C000BA65CC /* WXZResponse.h */,
+				F184BD55258CA7C000BA65CC /* WXZResponse.m */,
 			);
 			path = HttpClient;
 			sourceTree = "<group>";
@@ -359,11 +374,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F184BD56258CA7C000BA65CC /* WXZResponse.m in Sources */,
+				F184BD4A258C97DC00BA65CC /* WXZBatchRequest.m in Sources */,
 				F184BCE5258B486700BA65CC /* ViewController.m in Sources */,
 				F184BCDF258B486700BA65CC /* AppDelegate.m in Sources */,
 				F184BD2C258B491A00BA65CC /* WXZRequestManager.m in Sources */,
 				F184BCF0258B486900BA65CC /* main.m in Sources */,
 				F184BD26258B490300BA65CC /* WXZRequest.m in Sources */,
+				F184BD50258CA4A900BA65CC /* WXZSerialRequest.m in Sources */,
 				F184BCE2258B486700BA65CC /* SceneDelegate.m in Sources */,
 				F184BD1D258B48EC00BA65CC /* WXZNetWorkConfig.m in Sources */,
 			);
